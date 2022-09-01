@@ -9,58 +9,84 @@
         table {
             border-collapse: collapse;
             table-layout: auto;
-            width: 380px;
-            height: 380px;
+            width: 500px;
+            height: 450px;
                 }
         td {
             border: 5px solid #000;
             width: 50px;
             height: 50px;
-        }
-        .orange1 {
+            }
+        .td1 
+            { 
+            border: 0px;
+            }
+        .tr2 {
+            border: 0cm;
+            display: none;
+            }
+        .orange1 
+            {
             background-color: orange;
-        }
-        .orange2 {
+            }
+        .orange2 
+            {
             background-color: orange;
-        }
-        .blue1 {
+            }
+        .blue 
+            { 
             background-color: blue;
-        }
-        .red1 {
+            }
+        .red 
+        {
             background-color: red;
-        }
+        }    
     </style>
 </head>
 <body>
     <main>
         <div>
             <table>
+                <tr class="tr2">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 <tr>
-                   <td rowspan="3"  colspan="2"></td>
+                   <td rowspan="3" colspan="2"></td>
                    <td colspan="3"></td>
                    <td rowspan="2"></td>
                    <td class="orange1"></td>
+                   <td class="td1"></td>
                 </tr>
                 <tr>
                     <td rowspan="3" colspan="3"></td>
                     <td></td>
+                    <td class="td1"></td>
                 </tr>
                 <tr>
                     <td rowspan="2" colspan="2"></td>
+                    <td class="td1"></td>
                 </tr>
                 <tr>
                     <td rowspan="3" colspan="2"></td>
+                    <td class="td1"></td>
                 </tr>
                 <tr>
-                    <td class="blue1" rowspan="3" colspan="2"></td>
+                    <td class="blue" rowspan="3" colspan="2"></td>
                     <td rowspan="2"></td>
                     <td class="orange2" rowspan="2" colspan="2"></td>
+                    <td class="td1"></td>
                 </tr>
                 <tr>
+                    <td class="td1"></td>
                 </tr>
                 <tr>
                     <td></td>
-                    <td class="red1"></td>
+                    <td class="red"></td>
                     <td colspan="3"></td>
                 </tr>
             </table>
